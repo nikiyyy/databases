@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="0C51DF41-9DD8-1081-1BB3-41E4469D92F8" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="4B62670C-6E4A-5574-8752-62E32A909F4B" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="78DE2FB7-E805-3416-DF35-E5DEB9E87012" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="91B84523-8106-C37D-EE3D-1BE1392B12FD" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="9FB5D7C0-186D-5344-BA2B-78D17679A44C" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="A9FDB7EE-2488-3B1E-2EB0-CB53EA10D787" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="D9E13FBD-2378-6901-68F1-875C115CCA14" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="FFD45AAE-24E3-2426-03CA-09B843F86217" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="0B805103-9057-10E7-4DD7-07F38DDE898A" name="" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="3417CB6D-C5CB-C1AC-6276-AC39E2AEEEAC" name="" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="3CA2B4FB-F789-C235-5586-970226E7BFE5" name="" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="7A706179-7925-44AC-D4CF-48E784FE9F6E" name="" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="7E26177B-2D30-17B2-F8D6-89C7A0E13250" name="" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="924DC5C9-FE77-0202-9EA9-4BFF7C9AAB72" name="" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="F3F2C562-06A8-BF27-8087-5427EE26DCC1" name="" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

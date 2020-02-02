@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0C51DF41-9DD8-1081-1BB3-41E4469D92F8" name="Book">
+<createdBy>Skot</createdBy>
+<createdTime>2019-10-21 15:17:26 UTC</createdTime>
+<generatorID>0A6E6B20-F324-20A9-FDA6-24CC36BF39FA</generatorID>
+<ownerDesignName>blabla</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_Book" id="1C1929AC-DEC8-C89F-D746-96957DC55EA4">
+<createdBy>Skot</createdBy>
+<createdTime>2019-10-21 15:17:26 UTC</createdTime>
+<generatorID>4AEB6BF3-0B7B-BF02-C561-193EE3CE72B3</generatorID>
+<ownerDesignName>blabla</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="20346043-38F3-97F5-2872-5EA7C532E9AC">
+<createdBy>Skot</createdBy>
+<createdTime>2019-10-21 15:17:26 UTC</createdTime>
+<generatorID>81B8DDED-43F3-59D0-25B8-3D7629520D9F</generatorID>
+<ownerDesignName>blabla</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="year" id="2D15AC44-31F9-0BC9-68CB-3A04E63CF116">
+<createdBy>Skot</createdBy>
+<createdTime>2019-10-21 15:17:26 UTC</createdTime>
+<generatorID>49A5DAA3-62CA-7161-A1BF-1CAF0AC43CE9</generatorID>
+<ownerDesignName>blabla</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="publication_id_publication" id="66187402-C313-516C-FAAE-0D8D4CE4E334">
+<createdBy>Skot</createdBy>
+<createdTime>2019-10-21 15:17:26 UTC</createdTime>
+<generatorID>D4D46A15-02BB-7329-4559-73999105178A</generatorID>
+<ownerDesignName>blabla</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B805103-9057-10E7-4DD7-07F38DDE898A" referredColumn="76DA3AB1-C0CC-ED5A-0E98-6D06C4936339"/>
+</associations>
+</Column>
+<Column name="author_author_ID" id="7CEAA6B6-8B72-985B-DCD5-F67FC435D4E9">
+<createdBy>Skot</createdBy>
+<createdTime>2019-10-21 15:17:26 UTC</createdTime>
+<ownerDesignName>blabla</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3CA2B4FB-F789-C235-5586-970226E7BFE5" referredColumn="C15B089F-C66D-8559-8565-46F73D9F84BC"/>
+</associations>
+</Column>
+<Column name="genre_id_genre" id="F41AF585-E188-5DDF-8B4C-09257E383E8C">
+<createdBy>Skot</createdBy>
+<createdTime>2019-10-21 15:36:35 UTC</createdTime>
+<generatorID>BBA3113F-D7F6-CCF1-EDA1-782BFC7F5EA5</generatorID>
+<ownerDesignName>blabla</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F3F2C562-06A8-BF27-8087-5427EE26DCC1" referredColumn="90E8CD2C-BEF8-1A20-DC84-8439205916C9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2DF44A6F-9E83-02CC-2787-853EDA5D329E" name="Book_PK">
+<createdBy>Skot</createdBy>
+<createdTime>2019-10-21 15:17:26 UTC</createdTime>
+<generatorID>9897E44E-178B-56B6-0EC8-6148C43C6A00</generatorID>
+<ownerDesignName>blabla</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C1929AC-DEC8-C89F-D746-96957DC55EA4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F2AF560-B691-69AD-6FAA-3DD972B701A0" name="Book_author_FK">
+<createdBy>Skot</createdBy>
+<createdTime>2019-10-21 15:17:26 UTC</createdTime>
+<generatorID>8596FCDB-62D4-6A02-EAA3-7CAE2FFE6F52</generatorID>
+<ownerDesignName>blabla</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CEAA6B6-8B72-985B-DCD5-F67FC435D4E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05A88839-A3D2-C9EF-3DEB-78F20AC6DA8E" name="Book_publication_FK">
+<createdBy>Skot</createdBy>
+<createdTime>2019-10-21 15:17:26 UTC</createdTime>
+<generatorID>F28D7E26-347A-606B-22BF-45171082D3E8</generatorID>
+<ownerDesignName>blabla</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66187402-C313-516C-FAAE-0D8D4CE4E334"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF5207F5-77E3-E5E4-6254-780CE4282DD9" name="Book_genre_FK">
+<createdBy>Skot</createdBy>
+<createdTime>2019-10-21 15:36:35 UTC</createdTime>
+<generatorID>E83E4472-BC99-3869-7C84-B38999B6E871</generatorID>
+<ownerDesignName>blabla</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F41AF585-E188-5DDF-8B4C-09257E383E8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

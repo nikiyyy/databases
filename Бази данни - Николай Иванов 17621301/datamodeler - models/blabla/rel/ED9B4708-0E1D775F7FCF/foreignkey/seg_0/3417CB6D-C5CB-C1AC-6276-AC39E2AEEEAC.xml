@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3417CB6D-C5CB-C1AC-6276-AC39E2AEEEAC" containerWithKeyObject="9FB5D7C0-186D-5344-BA2B-78D17679A44C" localFKIndex="7BA3B1E4-2204-EFDE-98C9-FC4579897732" name="Taking_Reader_FK">
+<createdBy>Skot</createdBy>
+<createdTime>2019-10-21 15:17:26 UTC</createdTime>
+<generatorID>FDF03D3C-A817-817B-AA24-1486A58CC0F2</generatorID>
+<ownerDesignName>blabla</ownerDesignName>
+<referredTableLongName>Reader</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D9E13FBD-2378-6901-68F1-875C115CCA14</referredTableID>
+<keyObject>2FE50032-06B5-86F0-8388-28A5EBA7CF9D</keyObject>
+<referredKeyID>2FE50032-06B5-86F0-8388-28A5EBA7CF9D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_reader</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FFD45AAE-24E3-2426-03CA-09B843F86217" name="Worker">
+<createdBy>Skot</createdBy>
+<createdTime>2019-10-21 15:17:26 UTC</createdTime>
+<generatorID>F192C304-4E67-85CF-46A4-D2D133E849C5</generatorID>
+<ownerDesignName>blabla</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_Worker" id="E1F7996B-A505-0DA2-5F17-1C26DF4C1760">
+<createdBy>Skot</createdBy>
+<createdTime>2019-10-21 15:17:26 UTC</createdTime>
+<generatorID>0019ABA3-6E78-6DCE-DFC8-3389363CD68C</generatorID>
+<ownerDesignName>blabla</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="B0D0DB66-5577-4966-A8EC-DF98BE84F4D9">
+<createdBy>Skot</createdBy>
+<createdTime>2019-10-21 15:17:26 UTC</createdTime>
+<generatorID>E573ED74-8AA1-D40C-6055-0B143C35056E</generatorID>
+<ownerDesignName>blabla</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telephone" id="6CADCF40-AF4D-AA38-7996-3F4282193BFF">
+<createdBy>Skot</createdBy>
+<createdTime>2019-10-21 15:17:26 UTC</createdTime>
+<generatorID>83FF0E2B-7098-F467-71A2-4A9A23E13E52</generatorID>
+<ownerDesignName>blabla</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Position_id_position" id="EB5F6FD8-1B37-E6CB-C405-6527C9363418">
+<createdBy>Skot</createdBy>
+<createdTime>2019-10-21 15:17:26 UTC</createdTime>
+<generatorID>22FA77FE-99B0-D9D5-0130-8F76A4EC462B</generatorID>
+<ownerDesignName>blabla</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E26177B-2D30-17B2-F8D6-89C7A0E13250" referredColumn="96C6510F-B45C-560D-B5D8-DA414BCA5C0E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD25110B-E9C9-8CF2-FF7C-7659AF1A141B" name="Worker_PK">
+<createdBy>Skot</createdBy>
+<createdTime>2019-10-21 15:17:26 UTC</createdTime>
+<generatorID>F6647277-497F-40AC-AD10-4739D7E315BB</generatorID>
+<ownerDesignName>blabla</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1F7996B-A505-0DA2-5F17-1C26DF4C1760"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9DD28374-550D-E49B-1E51-EF7F8FE56F8C" name="Worker_Position_FK">
+<createdBy>Skot</createdBy>
+<createdTime>2019-10-21 15:17:26 UTC</createdTime>
+<generatorID>4057A927-AE05-9F00-BF3E-10CC0105C366</generatorID>
+<ownerDesignName>blabla</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB5F6FD8-1B37-E6CB-C405-6527C9363418"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
